@@ -1,6 +1,36 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* General Reset */
+body {
+  font-family: var(--font-family-primary);
+  color: var(--color-main-header);
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+h1, .heading-h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-bold);
+}
+
+h2, .heading-h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+}
+
+h3, .heading-h3 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+}
+
+.hero-text {
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-hero);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Grid System */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns-web), var(--grid-width));
+  gap: var(--grid-gutter);
 }

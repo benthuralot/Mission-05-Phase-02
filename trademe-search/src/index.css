@@ -1,14 +1,36 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* Color Palette */
+  --color-primary: #0076BC;
+  --color-light-gray: #F7F5F4;
+  --color-white: #FFFFFF;
+  --color-subheader: #B9B7C1;
+  --color-main-header: #44413D;
+  --color-marketplace: #C64A3D;
+  --color-jobs: #DF702E;
+  --color-motors: #626E86;
+  --color-properties: #52A45A;
+  --color-services: #555555;
+  --color-community: #528EE1;
+  --color-hero: #E7B2DA;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Typography */
+  --font-family-primary: 'Inter', sans-serif;
+  --font-family-secondary: 'Barlow Condensed', sans-serif;
+  --font-size-h1: 20px; /* Adjust as per H1 Web size */
+  --font-size-h2: 16px;
+  --font-size-h3: 12px;
+  --font-size-body: 12px;
+  --font-size-hero: 48px;
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-regular: 400;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Grid */
+  --grid-columns-web: 12;
+  --grid-columns-mobile: 4;
+  --grid-width: 64px;
+  --grid-gutter: 32px;
+
+  /* Base Unit */
+  --base-unit: 4px;
 }
